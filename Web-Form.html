@@ -1,0 +1,73 @@
+<html>
+    <head>
+      <title>PC Wares- Services Enquiry</title>
+        <link rel="stylesheet" href="./mystyles.css">
+    </head>
+<style>
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: black;
+    }
+
+    p {
+        font-size: 14px;
+        color: black;
+    }
+</style>
+<body>
+
+<h2>Service Enquiry</h2>
+<p>Please fill out this form and submit it to our service team contain it with the requested services.</p>
+<br>
+<p>$120: Full service/PC clean.</p>
+<p>$50-$90:Other services. </p>
+<p>NOTE: Prices do NOT include postal fees.</p>
+<br>
+<a href="Website for PC.html">Return to home page.</a>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Japan</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
+</body>
+</html>
